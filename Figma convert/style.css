@@ -278,7 +278,10 @@ width: 55%;
     cursor: pointer;
     transition: all 0.3s ease;
     background-size: cover;
+
+
 }
+
 .services .serv-content .card2{
     width: calc(33% - 20px);
     background-image: url(images/back1.png);
@@ -298,6 +301,20 @@ width: 55%;
     cursor: pointer;
     transition: all 0.3s ease;
     background-size: cover;
+}
+@media (max-width: 768px) {
+    .services .serv-content .card1{ 
+    width: unset;
+    margin:10px;
+    }
+    .services .serv-content .card2{ 
+        width: unset;
+        margin:10px;
+        }
+        .services .serv-content .card3{ 
+            width: unset;
+            margin:10px;
+            }
 }
 .services .serv-content .card1:hover{
     background: #AD974F;
